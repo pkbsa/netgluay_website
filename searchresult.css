@@ -1,0 +1,154 @@
+/* Set Universal*/
+*{
+    font-family : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+/******************/
+
+/* Set Main */
+body{
+    background-color: #0D0C11;
+}
+/******************/
+
+/* Set Nav Bar*/
+.navbar .leftnav{
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 40px;
+}
+.navbar .rightnav{
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+} 
+.navbar a {
+    color: white;
+    font-size: 16px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.navbar #id{
+    padding-top: 0px;
+}
+#logo{
+    height: 80px;
+    width: auto;
+    margin-top: -10px;
+}
+#searchbar{
+    margin-top: -5px;
+    padding-right: 40px;
+    -webkit-border-radius: 5px;
+    border-radius: 30px; 
+}
+#pfp {
+    padding-right: 60px;
+}
+#noti {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#pfp img{
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+    -webkit-border-radius: 5px;
+    border-radius: 30px; 
+}
+#noti img{
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    -webkit-border-radius: 5px;
+    border-radius: 30px; 
+}
+input{
+    -webkit-border-radius: 5px;
+    border-radius: 30px;
+    opacity: 80%;
+    width: 250px ;
+}
+input[type=text] {
+    padding-left: 20px;
+}
+.text {
+    padding-top: 20px;
+}
+/* =================================*/
+
+/* Set Footer*/
+footer{
+    padding-left: 50px;
+    margin-top: 100px;
+    width: 100%;
+    position: absolute;
+    border-top: 5px solid rgb(120, 120, 120);
+    position: relative;
+    z-index: 3;
+    background-color: rgb(25, 25, 25);
+}
+footer p{
+    margin-top: 30px;
+    font-size: 18px;
+    color:#a8acac;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 16px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+}
+.foot a{
+    padding-right: 150px;
+    color: rgb(120, 120, 120);
+}
+#last{
+    font-size: 1rem;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    color: rgb(120, 120, 120);
+    padding-bottom: 16px;
+}
+/******************/
+
+/* Set Line*/
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 18px;
+    padding: 0;
+    margin-bottom: 40px;
+    opacity: 50%;
+}
+/******************/
+
+
+/* Set Container*/
+.listrelatemovie{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: aliceblue;
+}
+
+.listrelatemovie h1{
+    margin: 18px;
+}
+
+.listrelatemovie img{
+    margin: 18px;
+    -webkit-border-radius: 5px;
+    border-radius: 10px; 
+    height : 300px; 
+    width : 200px;
+    object-fit: contain;
+}
+/******************/
+

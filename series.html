@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Series | NetGluay</title>
+        <link rel="icon" href="https://i.imgur.com/iPZltqj.png" type="image/png">
+         <!-- Required meta tags -->
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="movies.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="leftnav">
+                <a href="insidehomepage.html"><img id="logo" src="https://i.imgur.com/jcpK4JC.png" alt="logo" ></a>
+                <a href="insidehomepage.html" class="text">HOME</a>
+                <a href="movies.html" class="text">MOVIES</a>
+                <a href="series.html" class="text">SERIES</a>
+                <a href="watch.html" class="text">MY LIST</a>
+            </div>
+            <div class="rightnav">
+                <div id="searchbar">
+                    <input type="text" placeholder="Search..">
+                </div>
+                <a href="#" id="noti"><img src="https://i.imgur.com/PQWFgxD.png" alt="notifybell"></a>
+                <a href="userprofile.html" id="pfp"><img src="https://i.imgur.com/9S77aYT.jpg" alt="profilepicture"></a>
+            </div>
+        </nav>
+        <!-- Container -->
+        <div class="all">
+            <!-- Heading -->
+            <div class="head">
+                <h1>Series</h1>
+                <hr/>
+            </div>
+            <!-- Filter Button -->
+            <div class="genrecontainer" id="myBtnContainer">
+                <button class="btn active " onclick="filterSelection('all')"> All</button>
+                <button class="btn" onclick="filterSelection('action')"> Action</button>
+                <button class="btn" onclick="filterSelection('adventure')"> Adventure</button>
+                <button class="btn" onclick="filterSelection('animation')"> Animation</button>
+                <button class="btn" onclick="filterSelection('scifi')"> Sci-Fi</button>
+                <button class="btn" onclick="filterSelection('comedy')"> Comedy</button>
+                <button class="btn" onclick="filterSelection('horror')"> Horror</button>
+                <button class="btn" onclick="filterSelection('drama')"> Drama</button>
+                <button class="btn" onclick="filterSelection('fantasy')"> Fantasy</button>
+                <button class="btn" onclick="filterSelection('crime')"> Crime</button>
+                <button class="btn" onclick="filterSelection('mystery')"> Mystery</button>
+                <button class="btn" onclick="filterSelection('thriller')"> Thriller</button>
+                <button class="btn" onclick="filterSelection('romance')"> Romance</button>
+                <button class="btn" onclick="filterSelection('western')"> Western</button>
+                <button class="btn" onclick="filterSelection('family')"> Family</button>
+                <button class="btn" onclick="filterSelection('biography')"> Biography</button>
+                <button class="btn" onclick="filterSelection('history')"> History</button>
+                <button class="btn" onclick="filterSelection('war')"> War</button>
+                <button class="btn" onclick="filterSelection('documentary')"> Documentary</button>
+                <button class="btn" onclick="filterSelection('sport')"> Sport</button>
+            </div>
+            <!-- Content Container -->
+            <div class="container">
+                <div class="filterDiv action adventure drama"><img src="https://i.imgur.com/RK1Seq1.jpg" alt="Witcher"><p>The Witcher</p><p class="year">2019</p></div>
+                <div class="filterDiv action adventure animation"><img src="https://i.imgur.com/nagmR1B.jpg" alt="Arcane"><p>Arcane</p><p class="year">2021</p></div>
+                <div class="filterDiv action adventure drama"><img src="https://i.imgur.com/l2Avpdw.jpg" alt="wheel"><p>Wheel of Time</p><p class="year">2021</p></div>
+                <div class="filterDiv action adventure crime"><img src="https://i.imgur.com/PFVmg3d.jpg" alt="Hawkeye"><p>Hawkeye</p><p class="year">2021</p></div>
+                <div class="filterDiv drama horror mystery"><img src="https://i.imgur.com/Edcwagg.jpg" alt="Yellowjackets"><p>Yellowjackets</p><p class="year">2021</p></div>
+                <div class="filterDiv drama adventure fantasy"><img src="https://i.imgur.com/dUjju9K.jpg" alt="Station"><p>Station Eleven</p><p class="year">2021</p></div>
+                <div class="filterDiv comedy crime drama"><img src="https://i.imgur.com/INNkImS.jpg" alt="Landscapers"><p>Landscapers</p><p class="year">2021</p></div>
+                <div class="filterDiv drama fantasy crime"><img src="https://i.imgur.com/YHMzh4s.jpg" alt="Lucifer"><p>Lucifer</p><p class="year">2016</p></div>
+                <div class="filterDiv animation action adventure"><img src="https://i.imgur.com/gO62Lnb.jpg" alt="dota"><p>Dota: Dragon's Blood</p><p class="year">2021</p></div>
+                <div class="filterDiv action adventure crime"><img src="https://i.imgur.com/0rYEcYg.jpg" alt="iron"><p>Iron fist</p><p class="year">2017</p></div>
+                <div class="filterDiv animation action adventure"><img src="https://i.imgur.com/XtD7F0n.jpg" alt="fast"><p>Fast & Furious S..</p><p class="year">2019</p></div>
+                <div class="filterDiv documentary sport"><img src="https://i.imgur.com/sEgKmQS.jpg" alt="f1"><p>Formula 1: Dri..</p><p class="year">2019</p></div>
+                <div class="filterDiv drama horror mystery"><img src="https://i.imgur.com/lv0t8b0.jpg" alt="Archive"><p>Archive 81</p><p class="year">2022</p></div>
+                <div class="filterDiv comedy drama"><img src="https://i.imgur.com/r4jszjM.jpg" alt="afterlife"><p>After Life</p><p class="year">2019</p></div>
+                <div class="filterDiv drama crime thriller"><img src="https://i.imgur.com/K8mgJYG.jpg" alt="Ozark"><p>Ozark</p><p class="year">2017</p></div>
+                <div class="filterDiv drama"><img src="https://i.imgur.com/5ClFFrk.jpg" alt="anna"><p>Inventing Anna</p><p class="year">2022</p></div>
+            </div>
+        </div>
+        <script src="movies.js"></script>
+    </body>
+</html>

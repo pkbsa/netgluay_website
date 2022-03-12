@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Profile | NetGluay</title>
+        <link rel="icon" href="https://i.imgur.com/iPZltqj.png" type="image/png">
+         <!-- Required meta tags -->
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="userprofile.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="leftnav">
+                <a href="insidehomepage.html"><img id="logo" src="https://i.imgur.com/jcpK4JC.png" alt="logo" ></a>
+                <a href="insidehomepage.html" class="text">HOME</a>
+                <a href="movies.html" class="text">MOVIES</a>
+                <a href="series.html" class="text">SERIES</a>
+                <a href="watch.html" class="text">MY LIST</a>
+            </div>
+            <div class="rightnav">
+                <div id="searchbar">
+                    <input type="text" placeholder="Search..">
+                </div>
+                <a href="#" id="noti"><img src="https://i.imgur.com/PQWFgxD.png" alt="notifybell"></a>
+                <a href="userprofile.html" id="pfp"><img src="https://i.imgur.com/9S77aYT.jpg" alt="profilepicture"></a>
+            </div>
+        </nav>
+        <div class="all">
+            <!-- Heading -->
+            <div class="head">
+                <h1>Account</h1>
+                <hr/>
+            </div>
+            <!-- Container -->
+            <div class="row">
+                <div class="column">
+                    <!-- profile pic -->
+                    <div class="profile-pic-div">
+                        <img src="https://i.imgur.com/9S77aYT.jpg" id="photo">
+                        <input type="file" id="file">
+                        <label for="file" id="uploadBtn"></label>
+                    </div>
+                </div>
+                <!-- form  -->
+                <div class="column">
+                    <form>
+                        <label for="txtEmail">Email</label><br>
+                        <input type="email" id="txtEmail" required><img src="https://i.imgur.com/KM08xHd.png"><br>
+                        <label for="psw">Password</label><br>
+                        <input type="password" id="psw" name="psw"><img src="https://i.imgur.com/KM08xHd.png"><br>
+                        <label for="phone">Phone</label><br>
+                        <input type="txt" id="phone" name="phone"><img src="https://i.imgur.com/KM08xHd.png"><br>
+                        <button type="submit">Apply Change</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="userprofile.js"></script>
+    </body>
+</html>
